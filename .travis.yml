@@ -6,3 +6,11 @@ php:
  
 script:
   - phpunit --configuration tests/phpunit.xml tests
+
+notifications:
+  emails:
+    - kenmin.okayama@gmail.com
+    - kenmin.okayama+2@gmail.com
+  on_success: always # default: change
+  on_failure: always
+
